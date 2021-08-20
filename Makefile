@@ -9,4 +9,4 @@ clear_database:
 	rm ~/.local/share/leit/leit.db
 
 test:
-	go test -v . 
+	cd pkg/calendar/ && go test -v .
