@@ -10,3 +10,5 @@ clear_database:
 
 test:
 	cd pkg/calendar/ && go test -v .
+	cd pkg/command/ && go test -v .
+	
